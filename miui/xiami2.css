@@ -452,6 +452,94 @@ body{
 }
 /*这里是热评产品的结束*/
 
+/*这里是内容的开始*/
+.volume{
+    width: 1226px;
+    height: 420px;
+    margin: 0 auto;
+    padding: 0;
+}
+.volume-piece{
+    width: 296px;
+    height: 420px;
+    margin: 0 14px 0 0;
+    list-style-type: none;
+    float: left;
+    padding: 0;
+    text-align: center;
+    line-height: 1.25;
+    background: #fff;;
+    border-top:1px solid  #ffac13;
+}
+.volume-piece-second{
+    border-top: 1px solid #83c44e;
+}
+.volume-piece-third{
+    border-top: 1px solid #e53935;
+}
+.volume-piece-none{
+    margin: 0;
+    border-top: 1px solid deepskyblue;
+}
+.volume-small{
+    width: 296px;
+    height: 340px;
+    margin: 0;
+}
+.volume-set{
+    width: 296px;
+    height: 80px;
+    line-height: 100px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffac13;
+}
+.volume-set-second{
+    color: #83c44e;
+}
+.volume-set-third{
+    color: #e53935;
+}
+.volume-set-fourth{
+    color: #2196f3;
+}
+.volume-small-a{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0 10px;
+}
+.volume-small-a-in{
+    text-decoration: none;
+    color:#333;
+    height: 25px;
+
+
+}
+.volume-small-many{
+    width: 196px;
+    height: 34px;
+    float: left;
+    margin: 0 48px 10px 48px;
+}
+.volume-small-price{
+    width: 296px;
+    height: 40px;
+    float: left;
+    margin: 0;
+}
+.volume-small-price_in{
+    color: #b0b0b0;
+    text-decoration: none;
+}
+.volume-small-chart{
+    width: 216px;
+    height: 154px;
+    margin: 0 auto;
+
+}
+/*这里是内容的结束*/
+
 
 
 
