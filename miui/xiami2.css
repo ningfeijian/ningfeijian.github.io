@@ -1,0 +1,458 @@
+body{
+    margin: 0;
+    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei",
+    "Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+
+
+/*!**这是头的开始*/
+
+.top{
+    width:100%;
+    background-color: #333;
+    margin-top: 0;
+}
+.top-content{
+    width: 1226px;
+    margin: 0 auto;
+    height: 40px;
+}
+.top-nav{
+    width: 560px;
+    float: left;
+}
+.top-nav-a{
+    font-size: 12px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+.top-nav-span{
+    color: #424242;
+    font-size: 12px;
+    margin: 0 3px 0 4px;
+}
+.top-info{
+    width: 74px;
+    float: right;
+
+}
+.top—gw{
+    width: 120px;
+    float: right;
+    background: #666;
+    height: 40px;
+
+}
+.top—gw>p{
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+}
+/*这里是头的结束*/
+
+/*这里是导航的开始*/
+.navigation{
+    width: 100%;
+}
+.collocation-box{
+    width: 1226px;
+    height: 100px;
+    margin: 0 auto;
+}
+.collocation-box-img{
+    width: 62px;
+    height: 55px;
+    float: left;
+    margin-top: 23px;
+}
+.collocation-box-img>img{
+    width: 55px;
+    height: 55px;
+
+}
+.collocation-link{
+    width: 165px;
+    height: 55px;
+    float: left;
+    margin-top: 23px;
+}
+.collocation-link-category{
+    width: 850px;
+    height: 100px;
+    float:left;
+    margin-left: 10px;
+}
+.collocation-category{
+    width: 685px;
+    height: 100px;
+    float: left;
+    font-size: 16px;
+}
+.collocation-category>a{
+    text-decoration: none;
+    border: 15px;
+    padding: 26px 11px 38px;
+    color: #333;
+    line-height: 100px;
+}
+.collocation-form{
+    width: 245px;
+    height: 50px;
+    margin-top: 25px;
+    border: 1px solid #616161;
+    border-right:none ;
+}
+.collocation-bte{
+    background: #fff;
+    width: 52px;
+    height: 50px;
+    border: 1px solid #616161;
+    position: absolute;
+    margin-top: 25px;
+
+}
+/*这里是导航的结束*/
+
+/*这里是第一行的开始*/
+.home{
+    width:100%;
+    height: 600px;
+}
+.row{
+    width: 1240px;
+    height: 170px;
+    margin: 0 auto;
+
+}
+.row-item{
+    width: 316px;
+    height: 170px;
+    background: darkgray;
+    float: left;
+    margin: 0 0 0 15px;
+
+}
+.row-item>img{
+    width: 316px;
+    height: 170px;
+}
+.row-channel{
+    width: 234px;
+    height: 170px;
+    background: #5f5750;
+    float: left;
+    margin: 0 0 0 7px;
+}
+/*这是第一行的结束*/
+
+
+/*这里是小米明星单品的开始*/
+.title{
+    width: 1226px;
+    height: 58px;
+    margin: 0 auto;
+}
+.title>h2{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+.celebrity{
+    width: 1226px;
+    height: 380px;
+    margin: 0 auto;
+
+}
+.celebrity-content{
+    width: 234px;
+    height: 340px;
+    border-top: 1px solid yellow;
+    float:left;
+    margin:0 0 0 14px;
+    text-align:center;
+    background: #fafafa;
+}
+.celebrity-content1{
+    width: 234px;
+    height: 340px;
+    margin:0;
+    float:left;
+    border-top:1px solid rosybrown;
+    text-align: center;
+    background: #fafafa;
+}
+.celebrity-content-color{
+    border-top: 1px solid saddlebrown;
+}
+.celebrity-content-color-a{
+    border-top: 1px solid salmon;
+}
+.celebrity-content-color-b{
+    border-top: 1px solid forestgreen;
+}
+.celebrity-content-img{
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    margin-top: 39px;
+
+}
+.celebrity-content-img>img{
+    width: 160px;
+    height: 160px;
+}
+.yuan{
+    color: #ff6709;
+    text-align: center;
+}
+/*这里是小米明星单品的结束*/
+
+
+/*这里是智能硬件的开始*/
+                   /*这里是标题的开始*/
+                    .eye{
+    width: 100%;
+    height: 4554px;
+    background: #fafafa;
+}
+                    .eye-content{
+    width: 1226px;
+    height: 58px;
+    margin: 0 auto;
+}
+                    .eye-content>h3{
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+                   /*这里是标题的结束*/
+.wisdom{
+    width: 1226px;
+    height: 628px;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+.wisdom-piece{
+    width: 234px;
+    height: 614px;
+    float: left;
+}
+.wisdom-piece2{
+    width: 234px;
+    height: 300px;
+    background: #fff;
+    float:left;
+    margin: 0 0 14px 14px;
+}
+.wisdom-content{
+    width: 160px;
+    height: 160px;
+    margin: 20px 37px 0 37px;
+}
+.wisdom-content>img{
+    width: 160px;
+    height: 160px;
+}
+.wisdom-content-a{
+    width: 234px;
+    height: 21px;
+    margin: 30px 0 0 0;
+    text-align: center;
+    line-height: 40px;
+
+}
+/*这里是智能硬件的结束*/
+
+
+/*这里是搭配,配件,周边开始*/
+.match-piece{
+    width: 234px;
+    height: 300px;
+    float:left;
+    margin: 0 14px 14px 0;
+    background: #fff;
+    text-align: center;
+
+}
+.match-piece-none{
+    margin: 0;
+    padding: 0;
+}
+.match-piece-color{
+    background: none;
+}
+.match-piece-chart{
+    width: 234px;
+    height: 300px;
+
+}
+.match-piece-in{
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+
+}
+.match-piece-a{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+
+}
+.match-piece-a>a{
+    text-decoration: none;
+    color:#333;
+}
+.match-piece-yuan{
+    margin: 0;
+    color: #ff6709;
+}
+.match-piece-p{
+    font-size: 12px;
+    color:#b0b0b0;
+}
+.match-piece-small{
+    width: 234px;
+    padding-top: 50px;;
+    height: 93px;
+    margin-bottom: 14px;
+    text-align: center;
+    background: #fff;
+}
+.match-piece-small>h3{
+    margin: 0 110px 5px 30px;
+
+}
+.match-small-in{
+    width: 80px;
+    height: 80px;
+    float: right;
+    position: relative;
+    bottom: 15px;
+    right: 30px;
+}
+.match-small-in>img{
+    width: 80px;
+    height: 80px;
+}
+.match-small-in-a{
+    width: 40px;
+    height: 40px;
+}
+.match-small-many{
+    font-size: 18px;
+    padding-left: 30px;
+    float: left;
+    text-decoration:none;
+    color: #333;
+
+}
+/*这里是搭配,配件,周边的结束*/
+
+
+/*这里是为你推荐的开始*/
+.recommend{
+    width: 1226px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+.recommend-piece{
+    width: 234px;
+    height: 300px;
+    margin:0 0 0 14px;
+    background: #fff;
+    float: left;
+    text-align: center;
+}
+.recommend-piece-none{
+    margin: 0;
+}
+.recommend-piece-in{
+    margin: 30px;
+}
+.recommend-piece-in-img{
+    width: 150px;
+    height: 150px;
+}
+/*这里是为你推荐的结束*/
+
+
+
+/*z这里是热评产品的开始*/
+.heat{
+    width: 1226px;
+    height: 415px;
+    margin: 0 auto;
+    padding: 0;
+}
+.heat-piece{
+    width: 296px;
+    height: 415px;
+    list-style-type: none;
+    float: left;
+    margin: 0 14PX 0 0;
+    background: #fff;
+}
+.heat-piece-none{
+    margin: 0;
+}
+.heat-describe{
+    width: 240px;
+    height: 72px;
+    margin: 22px 28px 22px;
+
+}
+.heat-describe>a{
+    text-decoration: none;
+    color:#333;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.heat-evaluate{
+    position: relative;
+    height: 18px;
+    margin: 0 28px 8px;
+    padding: 0 10px 0 0;
+    font-size: 12px;
+    color:#b0b0b0;
+}
+.heat-info{
+    width: 296px;
+    height: 21px;
+    display: inline;
+    position: absolute;
+}
+.heat-info>h3{
+    margin: 0  0 0 28px;
+}
+.heat-info-a{
+    text-decoration: none;
+    color:#333;
+    font-size: 14px;
+    float: left;
+    font-weight: 400;
+
+}
+.heat-info-branch{
+    margin:0 10px;
+    color: #e0e0e0;
+    float: left;
+
+}
+.heat-info-price{
+    color: #ff6700;
+    margin: 0;
+}
+/*这里是热评产品的结束*/
+
+
+
+
+
