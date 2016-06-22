@@ -2,3 +2,49 @@ body{
     margin: 0;
     padding: 0;
 }
+
+/*这里是头部的开始*/
+.top{
+    width: 100%;
+    height: 33px;
+    background: #e5e5e5;
+    margin: 0;
+}
+.top-box{
+    width: 1105px;
+    height: 33px;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 32px;
+    overflow: hidden;
+}
+.top-meow{
+    width: 218px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+}
+.top-meow>em{
+    font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+.top-meow-content{
+    margin-left: 10px;
+}
+.top-box-row{
+    width: 636px;
+    float: right;
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+.top-box-row>li{
+    float: left;
+}
+.top-box-link{
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 10px;
+    margin: 16px;
+    color: #999;
+}
+/*这里是头部的结束*/
