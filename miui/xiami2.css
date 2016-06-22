@@ -614,6 +614,60 @@ body{
 
 }
 /*这里是下面部分的结束*/
+/*这里是尾部2部分的开始*/
+.tail-sye{
+    width: 160px;
+    height: 40px;
+    margin: 0;
+    font-size: 14px;
+    color: #424242;
+}
+.tail-eye{
+    width: 160px;
+    height: 24px;
+    color: #757575;
+    font-size: 12px;
+    float: left;
+    text-decoration: none;
+
+}
+.tail-box{
+    width: 252px;
+    height: 112px;
+    padding: 0;
+    float: left;
+    margin-top: 40px;
+    text-align: center;
+}
+.tail-upper{
+    width: 252px;
+    height: 22px;
+    margin: 0 0 5px 0;
+    padding: 0;
+    color: #ff6700;
+    font-size: 22px;
+    line-height: 1;
+}
+.tail-in{
+    width: 252px;
+    height: 36px;
+    color:#616161;
+    margin: 0 0 16px 0;
+    font-size: 12px;
+}
+.tail-lower{
+    width: 120px;
+    height: 30px;
+    margin: 0 auto;
+    border: 1px solid red;
+    color: #ff6700;
+    background: #fff;
+    font-size: 12px;
+    line-height: 28px;
+
+}
+/*这里是尾部2部分的结束*/
+
 
 
 
