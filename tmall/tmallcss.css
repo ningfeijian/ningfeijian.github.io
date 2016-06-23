@@ -1,9 +1,11 @@
-body{
-    margin: 0;
-    padding: 0;
-}
 
-/*这里是头部的开始*/
+
+
+/*这里是顶部的开始*/
+#global{
+    width: 100%;
+    height: 163px;
+}
 .top{
     width: 100%;
     height: 33px;
@@ -11,8 +13,8 @@ body{
     margin: 0;
 }
 .top-box{
-    width: 1105px;
-    height: 33px;
+    width: 1230px;
+    height: 32px;
     margin: 0 auto;
     padding: 0;
     line-height: 32px;
@@ -47,4 +49,72 @@ body{
     margin: 16px;
     color: #999;
 }
-/*这里是头部的结束*/
+/*这里是顶部的结束*/
+
+/*这里是搜索部的开始*/
+.header{
+    width: 1230px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header-box{
+    width: 625px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+
+
+
+}
+.header-picture{
+    position: absolute;
+    width: 240px;
+    top: 32px;
+    margin: 0 25px 0 25px;
+}
+.header-search{
+    width: 625px;
+    height: 42px;
+    padding-top: 38px;
+}
+.header-search-front{
+    width: 491px;
+    height: 36px;
+    border: 2px solid red;
+    margin: 0;
+    float: left;
+    border-right:0 ;
+}
+.header-search-behind{
+    width: 130px;
+    height:42px;
+    font-size: 18px;
+    font-weight:700;
+    color:#fff;
+    background-color:#c40000 ;
+    float: left;
+    border:0;
+
+}
+.header-eye{
+    width: 625px;
+    height: 22px;
+    margin:0 0 0 -5px;
+    padding: 0;
+    list-style-type: none;
+}
+.header-eye>li{
+    float: left;
+}
+.header-eye-information{
+    text-decoration: none;
+    border-left: 1px solid #ccc;
+    font-size: 14px;
+    padding:0 12PX 0 12px;
+    color: #999;
+}
+.header-information-color{
+    color: #c40000;
+}
+/*这里是搜索部的就是*/
