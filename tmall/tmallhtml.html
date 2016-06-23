@@ -55,7 +55,7 @@
             width: 1230px;
             height: 500px;
             margin: 0 auto;
-            background-color: tan;
+            background: #f2f2f2;
         }
         .navigation-lower-right{
             width: 100px;
@@ -64,17 +64,34 @@
             float: right;
             padding: 0;
             overflow: hidden;
+
         }
         .navigation-avatar-default{
             height: 90px;
-            background: hotpink;
+
+        }
+        .navigation-avatar-default>img{
+            width: 70px;
+            height: 70px;
+            margin: 10px 15px;
 
         }
         .navigation-login-info{
             height: 83px;
-            background: navajowhite;
             text-align: center;
             font-size: 12px;
+        }
+        .navigation-login{
+            width: 80px;;
+            margin: 9px auto 6px;
+            background: #dd2727;
+            border-radius: 12px;
+            height: 24px;
+            text-decoration: none;
+            padding: 0;
+            line-height: 22px;
+
+
         }
         .navigation-login-info>p{
             height: 18px;
@@ -89,7 +106,6 @@
         }
         .navigation-more-info{
             height: 147px;
-            background: plum;
             text-align: center;
             font-size: 12px;
             color:#000;
@@ -102,7 +118,6 @@
         }
         .navigation-recommends{
             height: 154px;
-            background: powderblue;
             text-align: center;
         }
         .navigation-recommends>p{
@@ -230,9 +245,12 @@
         </div>
         <div class="navigation-lower">
             <ul class="navigation-lower-right">
-                <li class="navigation-avatar-default"></li>
+                <li class="navigation-avatar-default">
+                    <img src="../picture/tmall002.jpg"
+                </li>
                 <li class="navigation-login-info">
                     <p>Hi~你好!</p>
+                    <div class="navigation-login"><a href="">请登录</a></div>
                     <a href="">免费注册</a>
                 </li>
                 <li class="navigation-more-info">
@@ -269,7 +287,7 @@
                     <li><a class="navigation-lower-content" href="">厨具 /收纳 /宠物</a></li>
                     <li><a class="navigation-lower-content" href="">图书音像</a></li>
                 </ul>
-                <img src="https://img.alicdn.com/imgextra/i2/2228361831/TB2PneaqFXXXXbEXXXXXXXXXXXX_!!2228361831.jpg_q100.jpg_.webp">
+                <img src="../picture/tmall001.jpg">
             </div>
         </div>
     </div>
