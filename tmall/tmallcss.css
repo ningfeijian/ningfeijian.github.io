@@ -1,4 +1,11 @@
-
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+img{
+    padding: 0;
+}
 
 
 /*这里是顶部的开始*/
@@ -6,6 +13,9 @@
     width: 100%;
     height: 163px;
 }
+
+
+
 .top{
     width: 100%;
     height: 33px;
@@ -49,6 +59,13 @@
     margin: 16px;
     color: #999;
 }
+.global-color-twelve{
+    color: #999;
+    font-size: 12px;
+}
+.global-link{
+    text-decoration: none;}
+
 /*这里是顶部的结束*/
 
 /*这里是搜索部的开始*/
@@ -118,3 +135,214 @@
     color: #c40000;
 }
 /*这里是搜索部的就是*/
+
+
+
+/*这里是导航栏的开始*/
+.navigation{
+    width: 100%;
+    height: 536px;
+    background: #f6f6f6;
+
+}
+.navigation-box{
+    width: 100%;
+    background-color:#dd2727;
+    height: 36px;
+}
+.navigation-upper{
+    width: 1260px;
+    height: 36px;
+    margin: 0 auto;
+
+}
+.navigation-upper-set{
+    width: 1045px;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 0 0 215px;
+    padding: 0;
+}
+.navigation-upper-set>li{
+    float: left;
+    list-style-type: none;
+}
+.navigation-set-theme{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 18px;
+    color: #fff;
+    letter-spacing: normal;
+
+}
+.navigation-lower{
+    width: 1230px;
+    height: 500px;
+    margin: 0 auto;
+    background: #999;
+}
+.navigation-lower-right{
+    width: 100px;
+    height: 480px;
+    margin-bottom: 0;
+    float: right;
+    padding: 0;
+    overflow: hidden;
+
+}
+.navigation-avatar-default{
+    height: 90px;
+
+
+}
+.navigation-avatar-default>img{
+    width: 70px;
+    height: 70px;
+    margin: 10px 15px;
+    border-radius: 38px;
+
+}
+.navigation-login-info{
+    height: 83px;
+    text-align: center;
+    font-size: 12px;
+}
+.navigation-login {
+    width: 80px;;
+    margin: 9px auto 6px;
+    background: #dd2727;
+    border-radius: 12px;
+    height: 24px;
+    padding: 0;
+    line-height: 22px;
+}
+.navigation-login>a{
+    text-decoration: none;
+}
+.navigation-login-info>p{
+    height: 18px;
+    margin: 0;
+
+}
+.navigation-login-info>a{
+    height: 22px;
+    text-decoration: none;
+    color:#000;
+
+}
+.navigation-more-info{
+    height: 147px;
+    text-align: center;
+    font-size: 12px;
+    color:#000;
+    border-top: 1px dotted darkolivegreen;
+}
+.navigation-more-info>a{
+    height: 22px;
+    color:#000;
+    text-decoration: none;
+}
+.navigation-recommends{
+    height: 154px;
+    text-align: center;
+}
+.navigation-recommends>p{
+    height: 24px;
+    margin: 0;
+    font-size: 12px;
+    padding-top: 3px;
+
+}
+.navigation-recommends>a{
+    width: 57px;
+    height: 57px;
+
+}
+.navigation-recommends-chart{
+    width: 57px;
+    height: 57px;
+    margin: 7px 21px 7px 21px;
+    border-radius: 28px;
+
+}
+.navigation-lower-left{
+    width: 1130px;
+    height: 500px;
+}
+.navigation-lower-catalog{
+    width: 200px;
+    height: 500px;
+    margin: 0;
+    position: absolute;
+    padding: 0;
+}
+.navigation-lower-catalog>li{
+    list-style-type: none;
+    height: 31.25px;
+}
+.navigation-lower-content{
+    text-decoration: none;
+    font-size: 14px;
+    color:#000;
+    vertical-align: bottom;
+    line-height: 32px;
+}
+.navigation-lower-eye{
+    position:absolute;
+    margin-top: -36px;
+    font-size: 16px;
+    color: #fff;
+    background-color:#c60a0a ;
+    line-height: 36px;
+    width: 200px;
+}
+/*这里是导航栏的结束*/
+
+
+/*这里是地区专享的开始*/
+.region{
+    width: 100%;
+    height: 162px;
+    margin-top: 30px;
+}
+.region-box{
+    width: 1230px;
+    margin: 0 auto;
+}
+.region-box-upper {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.region-upper-in{
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    color: #dd2727;
+    line-height: 18px;
+}
+.region-upper-left{
+    margin: 0;
+    padding: 0;
+    zoom:1;width: 300px;
+    border-bottom: 1px solid;
+    color:#999;
+    float: left;
+    margin-top: 10px;
+}
+.region-upper-right{
+    float: right;
+}
+.region-box-lower{
+    padding: 0;
+}
+.region-box-lower-box{
+    float: left;
+    margin: 0 0 0 10px;
+    width: 238px;
+}
+.region-box-lower-none{
+    margin:0;
+}
+/*这里是地区专享的结束*/

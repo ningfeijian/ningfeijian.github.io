@@ -9,169 +9,6 @@
 
 
     <style>
-        body{
-            margin: 0;
-            font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
-        }
-
-        .navigation{
-            width: 100%;
-            height: 536px;
-            background: #f6f6f6;
-
-        }
-        .navigation-box{
-            width: 100%;
-            background-color:#dd2727;
-            height: 36px;
-        }
-        .navigation-upper{
-            width: 1260px;
-            height: 36px;
-            margin: 0 auto;
-
-        }
-        .navigation-upper-set{
-            width: 1045px;
-            height: 36px;
-            line-height: 36px;
-            margin: 0 0 0 215px;
-            padding: 0;
-        }
-        .navigation-upper-set>li{
-            float: left;
-            list-style-type: none;
-        }
-        .navigation-set-theme{
-            text-decoration: none;
-            font-size: 16px;
-            font-weight: 500;
-            padding: 0 18px;
-            color: #fff;
-           letter-spacing: normal;
-
-        }
-        .navigation-lower{
-            width: 1230px;
-            height: 500px;
-            margin: 0 auto;
-            background: #f2f2f2;
-        }
-        .navigation-lower-right{
-            width: 100px;
-            height: 480px;
-            margin-bottom: 0;
-            float: right;
-            padding: 0;
-            overflow: hidden;
-
-        }
-        .navigation-avatar-default{
-            height: 90px;
-
-        }
-        .navigation-avatar-default>img{
-            width: 70px;
-            height: 70px;
-            margin: 10px 15px;
-
-        }
-        .navigation-login-info{
-            height: 83px;
-            text-align: center;
-            font-size: 12px;
-        }
-        .navigation-login{
-            width: 80px;;
-            margin: 9px auto 6px;
-            background: #dd2727;
-            border-radius: 12px;
-            height: 24px;
-            text-decoration: none;
-            padding: 0;
-            line-height: 22px;
-
-
-        }
-        .navigation-login-info>p{
-            height: 18px;
-            margin: 0;
-
-        }
-        .navigation-login-info>a{
-            height: 22px;
-            text-decoration: none;
-            color:#000;
-
-        }
-        .navigation-more-info{
-            height: 147px;
-            text-align: center;
-            font-size: 12px;
-            color:#000;
-            border-top: 1px dotted darkolivegreen;
-        }
-        .navigation-more-info>a{
-            height: 22px;
-            color:#000;
-            text-decoration: none;
-        }
-        .navigation-recommends{
-            height: 154px;
-            text-align: center;
-        }
-        .navigation-recommends>p{
-            height: 24px;
-            margin: 0;
-            font-size: 12px;
-            padding-top: 3px;
-
-        }
-        .navigation-recommends>a{
-            width: 57px;
-            height: 57px;
-
-        }
-        .navigation-recommends-chart{
-            width: 57px;
-            height: 57px;
-            margin: 7px 21px 7px 21px;
-        }
-        .navigation-lower-left{
-            width: 1130px;
-            height: 500px;
-        }
-        .navigation-lower-catalog{
-            width: 200px;
-            height: 500px;
-            margin: 0;
-            position: absolute;
-            padding: 0;
-        }
-        .navigation-lower-catalog>li{
-            list-style-type: none;
-            height: 31.25px;
-        }
-        .navigation-lower-content{
-            text-decoration: none;
-            font-size: 14px;
-            color:#000;
-            vertical-align: bottom;
-            line-height: 32px;
-        }
-        .navigation-lower-eye{
-            position:absolute;
-            margin-top: -36px;
-            font-size: 16px;
-            color: #fff;
-            background-color:#c60a0a ;
-            line-height: 36px;
-            width: 200px;
-        }
-
-
-
-
 
 
 
@@ -226,7 +63,7 @@
 
 </div>
 <!--这里是头部和搜索部的结束-->
-
+<!--这里是导航栏的开始-->
 <div class="navigation">
     <div class="navigation-box">
         <div class="navigation-upper">
@@ -243,55 +80,91 @@
                 <li><a class="navigation-set-theme" href="">阿里旅行</a></li>
             </ul>
         </div>
-        <div class="navigation-lower">
-            <ul class="navigation-lower-right">
-                <li class="navigation-avatar-default">
-                    <img src="../picture/tmall002.jpg"
-                </li>
-                <li class="navigation-login-info">
-                    <p>Hi~你好!</p>
-                    <div class="navigation-login"><a href="">请登录</a></div>
-                    <a href="">免费注册</a>
-                </li>
-                <li class="navigation-more-info">
-                    <p>退货保障</p>
-                    <p>花呗分期</p>
-                    <p>极速退款</p>
-                    <a href="">更多特权 ></a>
-                </li>
-                <li class="navigation-recommends">
-                    <p>推荐活动</p>
-                    <a href=""><img class="navigation-recommends-chart" src="https://img.alicdn.com/tps/i4/TB12BcoKpXXXXXpXpXXSutbFXXX.jpg"></a>
-                    <p>护色洗衣液</p>
-                    <p>890积分</p>
-                </li>
-
-            </ul>
-            <div class="navigation-lower-left">
-                <ul class="navigation-lower-catalog" >
-                    <li><a class="navigation-lower-content navigation-lower-eye" href="">三 商品分类</a>
+    </div>
+    <div class="navigation-lower">
+        <ul class="navigation-lower-right">
+            <li class="navigation-avatar-default">
+                <img src="../picture/tmall002.jpg"
+            </li>
+            <li class="navigation-login-info">
+                <p>Hi~你好!</p>
+                <div class="navigation-login"><a href="">请登录</a></div>
+                <a href="">免费注册></a>
+            </li>
+            <li class="navigation-more-info">
+                <p>退货保障</p>
+                <p>花呗分期</p>
+                <p>极速退款</p>
+                <a href="">更多特权 ></a>
+            </li>
+            <li class="navigation-recommends">
+                <p>推荐活动</p>
+                <a href=""><img class="navigation-recommends-chart" src="https://img.alicdn.com/tps/i4/TB12BcoKpXXXXXpXpXXSutbFXXX.jpg"></a>
+                <p>护色洗衣液</p>
+                <p>890积分</p>
+            </li>
+        </ul>
+        <div class="navigation-lower-left">
+            <ul class="navigation-lower-catalog" >
+                <li><a class="navigation-lower-content navigation-lower-eye" href="">三 商品分类</a>
                     <a class="navigation-lower-content" href="">女装 /内衣</a></li>
-                    <li><a class="navigation-lower-content" href="">男装 /运动户外</a></li>
-                    <li><a class="navigation-lower-content" href="">女鞋 /男鞋 /箱包</a></li>
-                    <li><a class="navigation-lower-content" href="">化妆品 /个人护理</a></li>
-                    <li><a class="navigation-lower-content" href="">腕表 /珠宝饰品 /眼镜</a></li>
-                    <li><a class="navigation-lower-content" href="">手机 /数码 /电脑办公</a></li>
-                    <li><a class="navigation-lower-content" href="">母婴玩具</a></li>
-                    <li><a class="navigation-lower-content" href="">零食 /进口食品 /茶酒</a></li>
-                    <li><a class="navigation-lower-content" href="">生鲜水果</a></li>
-                    <li><a class="navigation-lower-content" href="">大家电 /生活电器</a></li>
-                    <li><a class="navigation-lower-content" href="">家具建材</a></li>
-                    <li><a class="navigation-lower-content" href="">汽车 /配件 /用品</a></li>
-                    <li><a class="navigation-lower-content" href="">家纺 /家饰 /鲜花</a></li>
-                    <li><a class="navigation-lower-content" href="">医药保健</a></li>
-                    <li><a class="navigation-lower-content" href="">厨具 /收纳 /宠物</a></li>
-                    <li><a class="navigation-lower-content" href="">图书音像</a></li>
-                </ul>
-                <img src="../picture/tmall001.jpg">
-            </div>
+                <li><a class="navigation-lower-content" href="">男装 /运动户外</a></li>
+                <li><a class="navigation-lower-content" href="">女鞋 /男鞋 /箱包</a></li>
+                <li><a class="navigation-lower-content" href="">化妆品 /个人护理</a></li>
+                <li><a class="navigation-lower-content" href="">腕表 /珠宝饰品 /眼镜</a></li>
+                <li><a class="navigation-lower-content" href="">手机 /数码 /电脑办公</a></li>
+                <li><a class="navigation-lower-content" href="">母婴玩具</a></li>
+                <li><a class="navigation-lower-content" href="">零食 /进口食品 /茶酒</a></li>
+                <li><a class="navigation-lower-content" href="">生鲜水果</a></li>
+                <li><a class="navigation-lower-content" href="">大家电 /生活电器</a></li>
+                <li><a class="navigation-lower-content" href="">家具建材</a></li>
+                <li><a class="navigation-lower-content" href="">汽车 /配件 /用品</a></li>
+                <li><a class="navigation-lower-content" href="">家纺 /家饰 /鲜花</a></li>
+                <li><a class="navigation-lower-content" href="">医药保健</a></li>
+                <li><a class="navigation-lower-content" href="">厨具 /收纳 /宠物</a></li>
+                <li><a class="navigation-lower-content" href="">图书音像</a></li>
+            </ul>
+            <img src="../picture/tmall001.jpg">
         </div>
     </div>
 </div>
+
+
+<!--这里是导航栏的结束-->
+
+<div class="region">
+    <div class="region-box">
+        <div class="region-box-upper">
+            <span class="region-upper-left"></span>
+            <span class="region-upper-left region-upper-right"></span>
+            <p class="region-upper-in">广州地区专享</p>
+        </div>
+        <div class="region-box-lower">
+            <div class="region-box-lower-box region-box-lower-none">
+                <img src="//img.alicdn.com/tfs/TB1IcRkKFXXXXaoXXXXXXXXXXXX-476-260.jpg_240x5000q100.jpg_.webp"></div>
+            <div class="region-box-lower-box">
+                <img src="https://img.alicdn.com/tps/TB1IPhUKFXXXXcDXFXXXXXXXXXX-476-260.jpg_240x5000q100.jpg_.webp">
+            </div>
+            <div class="region-box-lower-box">
+                <img src="https://img.alicdn.com/tps/TB17bdaKFXXXXbtXpXXXXXXXXXX-476-260.jpg_240x5000q100.jpg_.webp">
+            </div>
+            <div class="region-box-lower-box">
+                <img src="https://img.alicdn.com/tps/TB1WhZWKpXXXXaFaXXXXXXXXXXX-476-260.jpg_240x5000q100.jpg_.webp">
+            </div>
+            <div class="region-box-lower-box">
+                <img src="https://img.alicdn.com/tps/TB1WohiKFXXXXbNXXXXXXXXXXXX-476-260.jpg_240x5000q100.jpg_.webp">
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+
 
 
 </body>
