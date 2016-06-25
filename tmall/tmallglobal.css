@@ -13,13 +13,12 @@ img{
 }
 
 p{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 .none-margin{
     margin: 0;
-    padding: 0;
-}
+    padding: 0;}
 
 
 a{
@@ -28,17 +27,19 @@ a{
 }
 
 a.hover{
-    bacolor: #c40000;
+    border: 0;
 }
 
 .clear-float{
-    zoom: 1；
+    zoom:1;
 }
 
 .clear-edge{
     margin: 0;
     padding: 0;
 }
+
+
 ul,li{
     list-style-type: none;
 }

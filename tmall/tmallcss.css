@@ -47,8 +47,7 @@
 .top-box-link{
     font-size: 12px;
     text-decoration: none;
-    line-height: 10px;
-    margin: 16px;
+    margin:0 16px;
     color: #999;
 }
 .global-color-twelve{
@@ -179,10 +178,10 @@
     padding: 0;
     overflow: hidden;
     text-align: center;
-
 }
 .navigation-avatar-default{
     height: 90px;
+
 }
 .navigation-avatar-default>img{
     width: 70px;
@@ -248,10 +247,15 @@
     width: 1130px;
     height: 500px;
 }
+.navigation-more-left{
+    position: absolute;
+}
 .navigation-lower-catalog{
     margin: 0;
+    width: 200px;
     position: absolute;
     padding: 0;
+    background-color: #f4f4f4;
 }
 .navigation-lower-catalog>li{
     height: 31.25px;
@@ -422,7 +426,7 @@
 
 /*这里是潮流栏目的开始*/
 .selected{
-    width: 100p%;
+    width: 100%;
     height: 477px;
     margin-top: 30px;
 }
