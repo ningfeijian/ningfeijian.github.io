@@ -1,3 +1,36 @@
 
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    background: #f9f9f9;
+}
+img{
+    border: 0;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
 
 
+a{
+    text-decoration: none;
+    display: block;
+}
+
+.clear-float{
+    zoom: 1；
+}
+
+.clear-edge{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style-type: none;
+}
