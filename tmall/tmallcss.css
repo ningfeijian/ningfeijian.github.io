@@ -146,7 +146,6 @@
     width: 1260px;
     height: 36px;
     margin: 0 auto;
-
 }
 .navigation-upper-set{
     width: 1045px;
@@ -160,13 +159,11 @@
     list-style-type: none;
 }
 .navigation-set-theme{
-    text-decoration: none;
     font-size: 16px;
     font-weight: 500;
     padding: 0 18px;
     color: #fff;
     letter-spacing: normal;
-
 }
 .navigation-lower{
     width: 1230px;
@@ -181,23 +178,20 @@
     float: right;
     padding: 0;
     overflow: hidden;
+    text-align: center;
 
 }
 .navigation-avatar-default{
     height: 90px;
-
-
 }
 .navigation-avatar-default>img{
     width: 70px;
     height: 70px;
     margin: 10px 15px;
     border-radius: 38px;
-
 }
 .navigation-login-info{
     height: 83px;
-    text-align: center;
     font-size: 12px;
 }
 .navigation-login {
@@ -209,9 +203,6 @@
     padding: 0;
     line-height: 22px;
 }
-.navigation-login>a{
-    text-decoration: none;
-}
 .navigation-login-info>p{
     height: 18px;
     margin: 0;
@@ -219,13 +210,10 @@
 }
 .navigation-login-info>a{
     height: 22px;
-    text-decoration: none;
     color:#000;
-
 }
 .navigation-more-info{
     height: 147px;
-    text-align: center;
     font-size: 12px;
     color:#000;
     border-top: 1px dotted darkolivegreen;
@@ -235,49 +223,40 @@
 }
 .navigation-more-info>a{
     height: 22px;
+    padding: 10px;
     color:#000;
-    text-decoration: none;
 }
 .navigation-recommends{
     height: 154px;
-    text-align: center;
 }
 .navigation-recommends>p{
     height: 24px;
-    margin: 0;
     font-size: 12px;
-    padding-top: 3px;
-
 }
 .navigation-recommends>a{
     width: 57px;
     height: 57px;
-
+    padding: 0;
 }
 .navigation-recommends-chart{
     width: 57px;
     height: 57px;
     margin: 7px 21px 7px 21px;
     border-radius: 28px;
-
 }
 .navigation-lower-left{
     width: 1130px;
     height: 500px;
 }
 .navigation-lower-catalog{
-    width: 200px;
-    height: 500px;
     margin: 0;
     position: absolute;
     padding: 0;
 }
 .navigation-lower-catalog>li{
-    list-style-type: none;
     height: 31.25px;
 }
 .navigation-lower-content{
-    text-decoration: none;
     font-size: 14px;
     color:#000;
     vertical-align: bottom;
@@ -439,3 +418,73 @@
 }
 
 /*这里是品牌栏目的结束*/
+
+
+/*这里是潮流栏目的开始*/
+.selected{
+    width: 100p%;
+    height: 477px;
+    margin-top: 30px;
+}
+.selected-box{
+    width: 1230px;
+    height: 477px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+.selected-box-whole{
+    width: 238px;
+    height: 477px;
+    float: left;
+    margin:0 10px 0 0;
+    padding: 0;
+    background-color: #fff;
+}
+.selected-box-upper-none{
+    margin: 0;
+}
+.selected-box-whole>p{
+    height: 36px;
+    background-color: #dd2727;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 36px;
+}
+.selected-whole-block{
+    width: 238px;
+    height: 220px;
+    overflow: hidden;
+}
+.selected-block-upper{
+    height: 24px;
+    font-size: 22px;
+    line-height: 24px;
+    margin-top: 19px;
+    z-index: 10;
+}
+.selected-block-in{
+    margin-top: 5px;
+    color: #888;
+    font-size: 14px;
+    height: 14px;
+    line-height: 14px;
+}
+.selected-block-in-chart>img{
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+
+}
+.selected-block-in-chart{
+    margin: 0 auto;
+
+}
+.selected-block-middle{
+    width: 200px;
+    height: 1px;
+    margin: 0 auto;
+    background-color: #EEE;
+}
+/*这里是潮流栏目的结束*/

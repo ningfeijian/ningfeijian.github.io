@@ -16,11 +16,19 @@ p{
     margin: 0;
     padding: 0;
 }
+.none-margin{
+    margin: 0;
+    padding: 0;
+}
 
 
 a{
     text-decoration: none;
     display: block;
+}
+
+a.hover{
+    bacolor: #c40000;
 }
 
 .clear-float{
