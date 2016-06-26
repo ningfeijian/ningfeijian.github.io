@@ -56,7 +56,6 @@
 }
 .global-link{
     text-decoration: none;}
-
 /*这里是顶部的结束*/
 
 /*这里是搜索部的开始*/
@@ -444,6 +443,10 @@
     margin:0 10px 0 0;
     padding: 0;
     background-color: #fff;
+    color:#757575;
+}
+.selected-box-whole a:hover img{
+    opacity: 0.5;
 }
 .selected-box-upper-none{
     margin: 0;
@@ -479,7 +482,6 @@
     width: 140px;
     height: 140px;
     border-radius: 70px;
-
 }
 .selected-block-in-chart{
     margin: 0 auto;
@@ -492,3 +494,132 @@
     background-color: #EEE;
 }
 /*这里是潮流栏目的结束*/
+
+
+
+
+/*这里是亲子时光栏目的开始*/
+.equipment{
+    width: 100%;
+    height: 90px;
+}
+.equipment>img{
+    width: 100%;
+    margin-top: 10px;
+}
+.parenting{
+    width: 100%;
+    margin-top: 30px;
+}
+.parenting-box{
+    width: 1230px;
+    height: 473px;
+    margin: 0 auto;
+}
+.parenting-top{
+    width: 1230px;
+}
+.parenting-top>p{
+    font-size: 18px;
+    color:#000;
+    line-height: 31px;
+    margin-left: 18px;
+}
+.parenting-top i{
+    color: #c40000;
+}
+.parenting-top>ul{
+    width: 700px;
+    height: 31px;
+    margin: 0;
+}
+.parenting-top li{
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.parenting-top a{
+    color: #000;
+}
+.parenting-lower{
+    width: 1230px;
+}
+.parenting-lower-left{
+    text-align: center;
+}
+.parenting-lower-left img{
+    width: 246px;
+    height: 300px;
+}
+.parenting-lower-left p{
+    line-height: 30px;
+    background-color:#83c44e;
+}
+.parenting-lower-left div{
+    height: 112px;
+    background-color: #f7a945;
+    overflow: hidden;
+}
+.parenting-lower-left-a{
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+.parenting-lower-left-b{
+    font-size: 18px;
+    color: #fff;
+}
+.parenting-lower-middle{
+    width: 735px;
+}
+.parenting-lower-middle>a{
+    width: 245px;
+    height: 221px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.parenting-lower-middle div{
+    margin: 25px 0 0 25px;
+    font-size: 18px;
+    color: #000;
+}
+.parenting-lower-middle p{
+    margin: 5px 0 0 25px;
+    font-size: 14px;
+    color: #f7a945;
+}
+.parenting-lower-middle img{
+    height: 154px;
+    zoom: 1;
+}
+.parenting-lower-middle img:hover{
+    margin-right: 10px;
+}
+.parenting-lower-right{
+    width: 249px;
+    height: 442px;
+}
+.parenting-lower-right a{
+    height: 147.3px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.parenting-lower-right div{
+    height: 24px;
+    color: #000;
+    font-size: 18px;
+    margin: 25px 0 0 25px;
+}
+.parenting-lower-right p{
+    zoom: 1;
+    margin-left: 25px;
+    font-size: 14px;
+    color: #f7a945;
+}
+.parenting-lower-right img{
+    width: 100px;
+}
+.parenting-lower-right img:hover{
+    margin-right: 10px;
+}
+/*这里是亲子时光栏目的结束*/
