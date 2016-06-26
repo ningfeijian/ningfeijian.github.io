@@ -25,16 +25,13 @@ a{
 a.hover{
     border: 0;
 }
-
-.clear-float{
-    zoom:1;
-}
-
 .direction-left{
     float: left;
+    zoom:1;
 }
 .direction-right{
     float: right;
+    zoom:1;
 }
 
 
