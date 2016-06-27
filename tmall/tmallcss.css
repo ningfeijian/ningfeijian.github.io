@@ -627,10 +627,12 @@
 
 /*这里是猜你喜欢的开始*/
 .guess{
+    height: 1148px;
     width: 100%;
     margin-top: 10px;
 }
 .guess-map{
+    background-color: darkslategray;
     width: 1230px;
     margin:0 auto;
 }
@@ -686,3 +688,125 @@
     margin-left: 15px;
 }
 /*这里是猜你喜欢的结束*/
+
+
+/*这里是品牌旗舰店的的开始*/
+.flagship{
+    width: 100%;
+    height: 1000px;
+}
+.flagship-picture{
+    width: 100%;
+}
+.flagship-picture>img{
+    width: 1348px;
+    height: 90px;
+    margin: 0;
+}
+.flagship-theme{
+    width: 1230px;
+    height: 30px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.flagship-theme i{
+    color: #c40000;
+}
+.flagship-theme-content{
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+
+}
+.flagship-content{
+    width: 1232px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 0;
+}
+.flagship-box{
+    width: 594px;
+    height: 326px;
+    float: left;
+    margin: 0;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #fff;
+
+}
+.flagship-box:hover {
+    border: 1px solid red;
+}
+.flagship-box-upper{
+    width: 594px;
+    height: 50px;
+
+}
+.flagship-box-upper>img{
+    width: 50px;
+    padding: 0 25px 0 25px;
+    float: left;
+    margin-right: 10px;
+}
+.flagship-box-upper-store{
+    color: #333;
+    font-size: 16px;
+    line-height: 30px;
+    float: left;
+    width: 400px;
+}
+.flagship-box-upper>span{
+    color: #999;
+    font-size: 14px;
+}
+.flagship-box-upper-see{
+    width: 80px;
+    height: 30px;
+    float: right;
+    margin-top: 10px;
+    color: #666;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #eee;
+}
+.flagship-box-middle{
+    width: 594px;
+    height: 276px;
+}
+.flagship-middle-set{
+    width: 192px;
+    height: 276px;
+    float: left;
+    margin: 0 9px 0 0 ;
+    display: block;
+}
+.flagship-middle-set-none{
+    margin: 0;
+}
+.flagship-middle-set>img{
+    width: 192px;
+    height: 192px;
+}
+.flagship-middle-set>div{
+    color: #000;
+    font-size: 12px;
+    line-height: 18px;
+    height: 36px;
+    margin: 10px 10px 0 10px;
+    overflow: hidden;
+    display:-webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.flagship-middle-set>p{
+    color: #dd2727;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+/*这里是是品牌旗舰店的结束*/
