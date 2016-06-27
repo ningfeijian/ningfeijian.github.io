@@ -644,6 +644,13 @@
     margin-top: 30px;
     text-align: center;
 }
+.guess-box-theme{
+    width: 1230px;
+    height: 43px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
 .guess-theme>p{
     font-size: 18px;
     color: #666;
@@ -696,11 +703,12 @@
 }
 .flagship-picture{
     width: 100%;
+
 }
 .flagship-picture>img{
-    width: 1348px;
+    width: 100%;
     height: 90px;
-    margin: 0;
+    margin: 0 auto;
 }
 .flagship-theme{
     width: 1230px;
@@ -803,12 +811,12 @@
     width: 100%;
     border-top: 1px solid #999;
     border-bottom: 2px solid #dd2727;
+    background-color: #fff;
 }
 .ending-box-middle{
     width: 1230px;
     height: 213px;
     margin: 0 auto;
-    background: #fff;
 }
 .ending-middle-group{
     width: 186px;
