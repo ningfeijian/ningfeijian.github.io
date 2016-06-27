@@ -288,7 +288,6 @@
     margin: 0 auto;
 }
 .region-box-upper {
-    margin: 0 auto;
     margin-bottom: 10px;
 }
 .region-upper-in{
@@ -300,7 +299,7 @@
     line-height: 18px;
 }
 .region-upper-left{
-    margin: 0;
+
     padding: 0;
     zoom:1;width: 300px;
     border-bottom: 1px solid;
@@ -693,7 +692,7 @@
 /*这里是品牌旗舰店的的开始*/
 .flagship{
     width: 100%;
-    height: 1000px;
+    height: 950px;
 }
 .flagship-picture{
     width: 100%;
@@ -705,7 +704,6 @@
 }
 .flagship-theme{
     width: 1230px;
-    height: 30px;
     margin: 0 auto;
     padding-top: 30px;
 }
@@ -727,22 +725,16 @@
     padding: 0;
 }
 .flagship-box{
-    width: 594px;
-    height: 326px;
     float: left;
-    margin: 0;
     padding: 10px;
     background: #fff;
     border: 1px solid #fff;
-
 }
 .flagship-box:hover {
     border: 1px solid red;
 }
 .flagship-box-upper{
     width: 594px;
-    height: 50px;
-
 }
 .flagship-box-upper>img{
     width: 50px;
@@ -763,7 +755,6 @@
 }
 .flagship-box-upper-see{
     width: 80px;
-    height: 30px;
     float: right;
     margin-top: 10px;
     color: #666;
@@ -773,12 +764,10 @@
     background-color: #eee;
 }
 .flagship-box-middle{
-    width: 594px;
     height: 276px;
 }
 .flagship-middle-set{
     width: 192px;
-    height: 276px;
     float: left;
     margin: 0 9px 0 0 ;
     display: block;
@@ -788,13 +777,11 @@
 }
 .flagship-middle-set>img{
     width: 192px;
-    height: 192px;
 }
 .flagship-middle-set>div{
     color: #000;
     font-size: 12px;
     line-height: 18px;
-    height: 36px;
     margin: 10px 10px 0 10px;
     overflow: hidden;
     display:-webkit-box;
@@ -806,7 +793,7 @@
     font-size: 16px;
     font-weight: 600;
     margin-left: 10px;
-    height: 30px;
+
     line-height: 30px;
 }
 /*这里是是品牌旗舰店的结束*/
