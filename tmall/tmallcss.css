@@ -80,9 +80,11 @@
 }
 .header-picture{
     position: absolute;
-    width: 240px;
-    top: 32px;
-    margin: 0 25px 0 25px;
+    top: -135px;
+    left: -30px;
+    width: 250px;
+
+
 }
 .header-search{
     width: 625px;
@@ -899,7 +901,8 @@
     width: 35px;
     position: fixed;
     top: 185px;
-    left: -25px;
+    right: 97%;
+
 
 }
 .floating-navigation>li{
