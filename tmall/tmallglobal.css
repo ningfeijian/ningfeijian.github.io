@@ -39,7 +39,10 @@ a.hover{
     clear: both;
     display: block;
 }
-
+i{
+    color: #dd2727;
+    margin-right: 10px;
+}
 
 ul,li{
     list-style-type: none;
