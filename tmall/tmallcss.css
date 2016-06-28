@@ -886,3 +886,35 @@
     margin: 0 auto;
 }
 /*这里是底部的结束*/
+
+
+/*这里是左边导航的开始*/
+
+.floating-navigation{
+    width: 35px;
+    position: fixed;
+    top: 185px;;
+    left: 10px;
+    padding: 0;
+}
+.floating-navigation>li{
+    height: 35px;
+    border-bottom: 1px solid #fff;
+    background: #666;
+    text-align: center;
+    vertical-align: middle;
+}
+.floating-navigation a{
+    color: #fff;
+    font-size: 12px;
+    height: 35px;
+}
+.floating-navigation>li a:hover{
+    background-color: #dd2727;
+}
+.floating-navigation-style{
+    line-height: 35px;
+    background-color: #dd2727;
+}
+/*这里是左边导航的结束*/
+
