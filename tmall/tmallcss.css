@@ -898,12 +898,9 @@
 /*这里是左边导航的开始*/
 
 .floating-navigation{
-    width: 35px;
     position: fixed;
-    top: 185px;
-    right: 97%;
-
-
+    top: 200px;
+    width: 35px;
 }
 .floating-navigation>li{
     height: 35px;
