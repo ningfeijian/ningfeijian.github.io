@@ -2,31 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>ningfeijian</title>
     <link rel="stylesheet" type="text/css">
     <style>
 
-        body{
+        body,div,ul,li{
             margin: 0;
-            font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei",
-            "Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+            padding: 0;
         }
 
+        .homepage{
+            width: 100%;
+            height: 1200px;
+            background: ivory;
+        }
         .personal{
-            margin-top:30px;
+            margin-top:100px;
             width: 100%;
             height: 200px;
             padding: 0;
+            background: #f7a945;
         }
         .personal-control{
-            width: 1350px;
+            width: 1320px;
             height: 200px;
             margin: 0 auto;
             padding: 0;
             list-style-type: none;
         }
         .personal-small{
-            width: 1350px;
+            width: 1300px;
             height: 200px;
         }
         .personal-eye{
@@ -34,7 +39,7 @@
             height: 200px;
             float: left;
             background: rosybrown;
-            margin: 0 103px 0 0;
+            margin: 0 83px 0 0;
         }
         .personal-eye-none{
             margin: 0;
@@ -45,6 +50,7 @@
             height: 200px;
         }
         .rotate-1{
+
             -webkit-transform: rotate(10deg);
             -moz-transform: rotate(10deg);
             -ms-transform: rotate(10deg);
@@ -73,15 +79,94 @@
             transform: rotate(-20deg);
         }
 
-        
+        .main{
+            width: 300px;
+            height: 70px;
+            font-size: 10px;
+            overflow: hidden;
+        }
+        .main div{
+            background-color: deepskyblue;
+            height: 100%;
+            width: 6px;
+            display: inline-block;
+            margin-top: 40px;
+        }
+
+        .move-box1{
+            animation: stretchdelay 1.1s infinite ease-in-out;
+        }
+
+        .move-box2{
+            animation: stretchdelay 1.0s infinite ease-in-out;
+        }
+        .move-box3{
+            animation: stretchdelay 0.9s infinite ease-in-out;
+        }
+        .move-box4{
+            animation: stretchdelay 0.8s infinite ease-in-out;
+        }
+        .move-box5{
+            animation: stretchdelay 0.7s infinite ease-in-out;
+        }
+        @keyframes stretchdelay {
+            0%, 40%, 100% {
+                transform: scaleY(0.4);
+
+            }  20% {
+                   transform: scaleY(1.0);
+
+               }
+        }
+
+
+
+
+
     </style>
 </head>
 <body>
+<div class="homepage">
+    <div class="main">
+        <div class="move-box1"></div>
+        <div class="move-box2"></div>
+        <div class="move-box3"></div>
+        <div class="move-box4"></div>
+        <div class="move-box5"></div>
+        <div class="move-box4"></div>
+        <div class="move-box1"></div>
+        <div class="move-box3"></div>
+        <div class="move-box2"></div>
+        <div class="move-box5"></div>
+        <div class="move-box2"></div>
+        <div class="move-box3"></div>
+        <div class="move-box5"></div>
+        <div class="move-box1"></div>
+        <div class="move-box4"></div>
+        <div class="move-box5"></div>
+        <div class="move-box3"></div>
+        <div class="move-box2"></div>
+        <div class="move-box5"></div>
+        <div class="move-box2"></div>
+        <div class="move-box2"></div>
+        <div class="move-box5"></div>
+        <div class="move-box2"></div>
+        <div class="move-box3"></div>
+        <div class="move-box5"></div>
+        <div class="move-box1"></div>
+
+    </div>
+
 
 <audio controls="controls" autoplay loop>
-    <source src="./mp3/줄라이%20(July)%20-%20In%20Love%20(恋爱).mp3" type="audoi/mp3">
-    <source src="mp3/줄라이%20(July)%20-%20In%20Love%20(恋爱).mp3" type="audio/mpeg">
+    <source src="./mp3/줄라이%20(July)%20-%20In%20Love%20(恋爱).mp3" type="audio/mp3">
+    <source src="mp3/줄라이%20(July)%20-%20In%20Love%20(恋爱).mp3" type="audio/mp3">
 </audio>
+
+
+
+
+
 <div class="personal">
     <ul class="personal-control">
         <li class="personal-small">
@@ -105,7 +190,7 @@
 
 </div>
 
-
+</div>
 
 </body>
 </html>
