@@ -73,6 +73,39 @@
             100%{transform: scale(0.7)}
         }
 
+        .six{
+            width: 120px;
+            height: 120px;
+            margin: 45px 45px;
+        }
+        .six-box{
+            width: 40px;
+            height: 40px;
+            background: #fff;
+            float: left;
+            animation: six 1.4s infinite ease-in-out;
+        }
+        .six-box-1{
+            animation-delay: -0.1s;
+        }
+        .six-box-2{
+            animation-delay: -0.2s;
+        }
+        .six-box-3{
+            animation-delay: -0.3s;
+        }
+        .six-box-4{
+            animation-delay: -0.4s;
+        }
+        @keyframes six {
+            0%{transform: scale(1)}
+            25%{transform: scale(0)}
+            50%{transform: scale(1)}
+            100%{transform: scale(1)}
+
+        }
+
+
 
 
     </style>
@@ -91,6 +124,20 @@
     </div>
     <div class="nine nine4">
         <div class="nine-box nine-box-4"></div><div class="nine-box nine-box2 nine-box-8"></div>
+    </div>
+</div>
+
+<div class="subject">
+    <div class="six">
+        <div class="six-box six-box-2"></div>
+        <div class="six-box six-box-1"></div>
+        <div class="six-box"></div>
+        <div class="six-box six-box-3"></div>
+        <div class="six-box six-box-2"></div>
+        <div class="six-box six-box-1"></div>
+        <div class="six-box six-box-4"></div>
+        <div class="six-box six-box-3"></div>
+        <div class="six-box six-box-2"></div>
     </div>
 </div>
 
