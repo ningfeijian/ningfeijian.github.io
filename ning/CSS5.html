@@ -121,6 +121,41 @@
 
 
 
+        .three{
+            width: 100px;
+            height: 100px;
+            margin: 50px 50px;
+            position: absolute;
+            animation: rotate 2s infinite ease-in-out;
+        }
+        @keyframes rotate {
+            100%{transform: rotate(360deg)}
+        }
+        .three-box{
+            width: 60%;
+            height: 60%;
+            position:absolute;
+            bottom: 0;
+            top:0;
+            background: #fff;
+            border-radius: 100%;
+            animation: bounce 2s infinite ease-in-out;
+        }
+        .three-box2{
+            animation-delay: -1.1s;
+            top:auto;
+            bottom: 0;
+
+        }
+        @keyframes bounce {
+            0%,100%{transform: scale(-0)}
+            50%{transform: scale(1.0)}
+        }
+
+
+
+
+
 
     </style>
 
@@ -160,7 +195,12 @@
 </div>
 
 
-
+<div class="subject">
+    <div class="three">
+        <div class="three-box"></div>
+        <div class="three-box three-box2"></div>
+    </div>
+</div>
 
 
 </body>
