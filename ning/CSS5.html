@@ -169,6 +169,36 @@
         }
 
 
+        .one{
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+            margin-top: 50px;
+            position: relative;
+        }
+        .one div{
+            width: 100%;
+            height:100%;
+            border-radius: 50%;
+            background-color: #67cf22;
+            opacity: 0.6;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        @keyframes bounce{
+            0%,100%{transform:scale(0,0)}
+            50%{transform: scale(1.0)}
+        }
+        .one-box1{
+            animation:bounce 2.0s infinite ease-in-out;
+        }
+        .one-box2{
+            animation:bounce 2.0s infinite ease-in-out;
+            animation-delay: -1s;
+        }
+
+
 
 
     </style>
@@ -223,6 +253,12 @@
     </div>
 </div>
 
+<div class="subject">
+    <div class="one">
+        <div class="one-box1"></div>
+        <div class="one-box2"></div>
+    </div>
+</div>
 
 </body>
 </html>
