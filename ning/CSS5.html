@@ -154,6 +154,20 @@
 
 
 
+        .spinner{
+            width: 100px;
+            height: 100px;
+            background-color: #fff;;
+            margin: 0 auto;
+            margin-top: 50px;
+            animation:rotateplane 2s infinite;
+        }
+        @keyframes rotateplane {
+            0%{transform: rotateX(0deg)rotateY(0deg)}
+            50%{transform: rotateX(-180deg)}
+            100%{transform:rotateZ(180deg)}
+        }
+
 
 
 
@@ -199,6 +213,13 @@
     <div class="three">
         <div class="three-box"></div>
         <div class="three-box three-box2"></div>
+    </div>
+</div>
+
+
+<div class="subject">
+    <div class="spinner rotateplane">
+
     </div>
 </div>
 
