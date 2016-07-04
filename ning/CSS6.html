@@ -5,11 +5,336 @@
     <title>Title</title>
     <style type="text/css">
 
-    </style>
 
+
+        div,br,p{
+            margin: 0;
+            padding: 0;
+        }
+        .position{
+            position: absolute;
+        }
+        .main{
+            width: 1300px;
+            height: 400px;
+            margin-top: 30px;
+        }
+        .back{
+            width: 560px;
+            height: 110px;
+            background: #dd5c40;
+            border-radius: 15px;
+            top: 180px;  margin-left: 395px;
+        }
+        .magnetism{
+            margin: 0 auto;
+            width: 550px;
+            height: 330px;
+            margin-left: 400px;
+            border-radius: 20px;
+            background: #dd5c40;
+        }
+        .screw{
+            width: 20px;
+            height: 20px;
+            border-radius: 100%;
+            background: #8b392e;
+        }
+        .screw-box{
+            width: 16px;
+            height: 4px;
+            margin: 7px 2px;
+            background: #449ba2;
+            transform: rotate(45deg);
+        }
+        .screw-box2{
+            transform: rotate(135deg);
+        }
+        .screw2{
+            top: 10px;
+            left: 10px;
+        }
+        .screw3{
+            bottom: 10px;
+            left: 10px;
+        }
+        .screw4{
+            bottom: 10px;
+            right: 10px;
+        }
+        .screw5{
+            top: 10px;
+            right: 10px;
+        }
+        .screw6{
+            bottom: -40px;
+            left:50%;
+        }
+        .screw7{
+            background: #fff;
+            bottom: -60px;
+            left: 30%;
+        }
+        .screw8{
+            background: #fff;
+            bottom: -60px;
+            right: 25%;
+        }
+        .sticker{
+            width: 460px;
+            background: #f3ae53;
+            margin:0 auto;
+            margin-top: 25px;
+            overflow: hidden;
+            border-radius: 25px;
+            border: 5px solid #8b392e;
+        }
+        .sticker-header{
+            height: 62px;
+            overflow: hidden;
+            padding: 10px 20px 0;
+        }
+        .sticker-header>div{
+            font-weight: 700;
+            padding: 0 5px 1px 5px;
+            display: block;
+            font-size: 30px;
+            color: #f3ae53;
+            background-color: #d55e40;
+            line-height: 32px;
+            margin-top: 10px;
+        }
+        .sticker-header>hr{
+            height: 3px;
+            width: 370px;
+            background: #756046;
+            float:right;
+            margin: 8px;
+        }
+        .sticker-center{
+            width: 460px;
+            height: 94px;
+            overflow: hidden;
+        }
+        .stripe-a{
+            height: 35px;
+            background: #8b392e;
+        }
+        .stripe-b{
+            height: 35px;
+            margin-top: 30px;
+            background: #449ba2;
+        }
+        .stripe-c{
+            width: 100%;
+            height: 21px;
+            margin-top: 100px;
+            border-bottom: 1px solid #363844;
+            border-top: 1px solid #363844;
+        }
+        .stripe-c>hr{
+            height: 3px;
+            width: 170px;
+            background: #756046;
+            margin-bottom: 15px;
+        }
+        .stripe-c-rght{
+            float: right;
+        }
+        .stripe-c-left{
+            float: left;
+        }
+        .sticker-c-p{
+            font-size: 12px;
+            line-height: 20px;
+            float: left;
+            margin: 0 auto;
+            padding-left: 30px;
+            color: #dd5c40;
+        }
+        .cassete-center{
+            width: 318px;
+            height: 94px;
+            background: #dd5c40;
+            top: 0;
+            left: 71px;
+            border-radius: 20px;
+        }
+        .window{
+            width: 122px;
+            height: 60px;
+            background: #fff;
+            margin: 17px 98px;
+            overflow: hidden;
+        }
+        .window-left{
+            width: 100px;
+            height: 100px;
+            border-radius: 45%;
+            background: #8b392e;
+            top: -20px;
+            left: -60px;
+        }
+        .window-right{
+            width: 100px;
+            height: 100px;
+            border-radius: 45%;
+            background: #8b392e;
+            top: -20px;
+            right: -60px;
+        }
+        .circle {
+            width: 65px;
+            height: 65px;
+            border-radius: 100%;
+            background: #fff;
+            margin: 16.6px 17.5px;
+            animation: circle 2s infinite linear;
+        }
+        .circle-box, .circle-box2, .circle-box3{
+            width: 65px;
+            height: 3px;
+            background: #d55e40;
+            top: 31px;
+        }
+        .circle-box2{
+            transform: rotate(60deg);
+        }
+        .circle-box3{
+            transform: rotate(120deg);
+        }
+        .circle2{
+            width: 65px;
+            height: 65px;
+            border-radius: 100%;
+            background: #fff;
+            top: 16.5px;
+            right: 17.5px;
+            animation: circle 2s infinite linear;
+        }
+        @keyframes circle {
+            100%{transform: rotate(360deg)}
+        }
+        .blank{
+            width: 35px;
+            height: 35px;
+            background:#fff;
+            border-radius: 100%;
+            margin:15px;
+        }
+        .cassette-bottom,.cassette-bottom-outer{
+            width: 350px;
+            height: 0;
+            bottom: 0;
+            left: 75px;
+            border-bottom: 80px solid #8b392e;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+        }
+        .cassette-bottom-outer{
+            width: 340px;
+            bottom: -5px;
+            left: 80px;
+            border-bottom: 80px solid #d55e40;
+        }
+        .hole{
+            width: 30px;
+            height: 30px;
+            background: #fff;
+            position: absolute;
+            border-radius: 100%;
+        }
+        .hole-a{
+            bottom: -75px;
+            left: 30px;
+        }
+        .hole-b{
+            bottom: -75px;
+            right: 30px;
+        }
+        audio{
+            width: 300px;
+            height: 30px;
+            position: absolute;
+            top: 400px;
+            left: 550px;
+            background-color: #d55e40;
+        }
+    </style>
 </head>
 <body>
 
+<div class="main position">
+    <div class="back position"></div>
+    <div class="magnetism position">
+        <div class="screw screw2 position">
+            <div class="screw-box position"></div>
+            <div class="screw-box position screw-box2"></div>
+        </div>
+        <div class="screw screw3 position">
+            <div class="screw-box position "></div>
+            <div class="screw-box position screw-box2"></div>
+        </div>
+        <div class="screw screw4 position">
+            <div class="screw-box position "></div>
+            <div class="screw-box screw-box2"></div>
+        </div>
+        <div class="screw screw5 position">
+            <div class="screw-box position"></div>
+            <div class="screw-box position screw-box2"></div>
+        </div>
+        <div class="sticker">
+            <div class="sticker-header">
+                <div class="position">A</div>
+                <hr>
+                <hr>
+                <hr>
+            </div>
+            <div class="sticker-center position">
+                <div class="stripe-a"></div>
+                <div class="stripe-b"></div>
+                <div class="cassete-center position">
+                    <div class="circle position">
+                        <div class="circle-box position"></div>
+                        <div class="circle-box2 position"></div>
+                        <div class="circle-box3 position"></div>
+                        <div class="blank position"></div>
+                    </div>
+                    <div class="window position">
+                        <div class="window-left position"></div>
+                        <div class="window-right position"></div>
+                    </div>
+                    <div class="circle2 position">
+                        <div class="circle-box position"></div>
+                        <div class="circle-box2 position"></div>
+                        <div class="circle-box3 position"></div>
+                        <div class="blank position"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="stripe-c">
+                <hr class="stripe-c-left">
+                <hr class="stripe-c-rght">
+                <p class="sticker-c-p">小宁出品</p>
+            </div>
+        </div>
+        <div class="cassette-bottom position"></div>
+        <div class="cassette-bottom-outer position">
+            <div class="screw6 screw position">
+                <div class="screw-box position "></div>
+                <div class="screw-box position screw-box2"></div>
+            </div>
+            <div class="screw7 screw position" ></div>
+            <div class="screw8 screw position" ></div>
+            <div class="hole hole-a"></div>
+            <div class="hole hole-b"></div>
+        </div>
+    </div>
+</div>
+<audio class=" position" controls="controls">
+    <source src="../mp3/Céline%20Dion%20-%20My%20Heart%20Will%20Go%20On.mp3" type="audio/mp3">
+    <source src="../mp3/Céline%20Dion%20-%20My%20Heart%20Will%20Go%20On.mp3" type="audio/mp3">
+</audio>
 
 </body>
 </html>
