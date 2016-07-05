@@ -232,6 +232,31 @@
         }
 
 
+        .two-box2{
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            background: #fff;
+            animation: cubemove 2s infinite ease-in-out;
+        }
+        @keyframes cubemove {
+            25% {
+                transform: translateX(120px) rotate(360deg) scale(0.5)
+            }
+            50% {
+                transform: translateX(120PX) translateY(115px) rotate(-200deg)
+            }
+            75% {
+                transform: translateX(0PX) translateY(120PX) rotate(200deg)scale(0.5)
+            }
+            100%{rotate(-360deg)}
+        }
+        .two-box{
+            animation-delay: -1s;
+        }
+
+
+
 
 
     </style>
@@ -293,7 +318,6 @@
 
 
 <div class="subject">
-
     <div class="four">
         <div class="fout-box"></div>
         <div class="fout-box font-box2"></div>
@@ -302,7 +326,14 @@
         <div class="fout-box font-box5"></div>
         <div class="fout-box  font-box6"></div>
     </div>
+</div>
 
+
+<div class="subject">
+    <div class="two">
+        <div class="two-box2"></div>
+        <div class="two-box two-box2"></div>
+    </div>
 </div>
 
 </body>
