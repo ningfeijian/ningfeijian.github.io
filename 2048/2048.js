@@ -79,7 +79,7 @@ function moveDown(){
 }
 
 
-
+//程序的入口函数
 function main(){
     init()
 
