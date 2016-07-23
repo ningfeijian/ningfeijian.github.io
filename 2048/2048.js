@@ -1,11 +1,22 @@
 /**
  * Created by Administrator on 2016/7/23.
  */
+
+/***
+ * 返回随机整数，该随机整数
+ * @param min  整数min
+ * @param max  整数max
+ * @returns {*}   >=min <= max
+ */
 function getRandomInt(min, max){
     return min + Math.floor(Math.random() * (max - min + 1))
 }
 
 
+/****
+ * 返回整数2或者4，因为我们对程序只需要随机生成2或者4
+ * @returns {number} 整数2或者4
+ */
 function getRandomNum(){
     var arr = [2, 4]
     var index = getRandomInt(0, 1)
@@ -13,7 +24,10 @@ function getRandomNum(){
     return arr[index]
 }
 
-
+/***
+ * 返回页面内节点的innerText值为空的所有节点
+ * @returns {Array} 节点数组
+ */
 function getAllEmptyNodes(){
     var emptyNodes = []
     var nodes = document.getElementsByTagName('td')
@@ -25,7 +39,10 @@ function getAllEmptyNodes(){
     return emptyNodes
 }
 
-
+/****
+ * 返回一个随机的内容为空的节点
+ * @returns {*}
+ */
 function getRandomEmptyNode(){
     var emptyNodes = getAllEmptyNodes()
     if(emptyNodes.length == 0){
@@ -40,7 +57,7 @@ function getAllNodes(){
 }
 
 
-
+//2048程序初始化
 function init(){
     var num1 = getRandomNum()
     var num2 = getRandomNum()
