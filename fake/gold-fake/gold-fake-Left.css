@@ -1,0 +1,32 @@
+.subject{
+    position: relative;
+    width: 100%;
+    height: 1200px;
+}
+.subject-container{
+    position: absolute;
+    width: 1000px;
+    height: 1500px;
+    top: 64px;
+    left: 290px;
+}
+.left-navigation{
+    margin-top: 16px;
+    position: fixed;
+}
+.navigation-theme{
+    width: 120px;
+    color: #909090;
+    margin-bottom: 5px;
+    padding: 7px 10px;
+    text-align: center;
+}
+.navigation-theme:hover{
+    color: #007fff;
+    background-color: hsla(0,0%,87%,.2);;
+}
+.left-navigation img{
+    padding: 16px 25px 8px 25px;
+    width: 90px;
+}
+

@@ -1,0 +1,148 @@
+
+
+/*这里是中间推荐页面的开始*/
+.in{
+    margin-top: 16px;
+    position: relative;
+    left: 155px;
+    width: 600px;
+    display: none;
+}
+.in-theme-frame{
+    height: 42px;
+    background-color: white;
+    border-bottom: 1px solid #f1f1f1;
+    padding:  0 20px 0 20px;
+}
+.in-theme-frame span{
+    line-height: 43px;
+    font-size: 14px;
+}
+.entries{
+    padding: 22px;
+    background-color: white;
+}
+.entries-partition-box{
+    height: 70px;
+    margin-bottom: 3px;
+}
+.entries-partition-box img{
+    height: 60px;
+    padding-top: 5px;
+}
+.entries-info{
+    padding: 13px 0 8px 22px;
+}
+.entries-info div{
+    margin-left: 7px;
+}
+.entries-partition-box:hover{
+    background-color: #f4f5f5;
+}
+.entries-partition-box:hover .entry-title{
+    color: #007fff;
+}
+.entry-title{
+    font-weight: 600;
+    line-height: 24px;
+    display: block;
+}
+.entry-username{
+    font-size: 14px;
+}
+.ion-heart{
+    line-height: 19px;
+    color: #37c700;
+}
+
+
+.register-entry-box{
+    height: 158px;
+    margin-top: 16px;
+    background-color: white;
+    padding: 8px;
+}
+.register-box{
+    height: 142px;
+    border: 1px solid #007fff;
+    padding: 8px;
+}
+.register-box-title{
+    margin: 0 0 0 24px;
+    font-weight: 700;
+    width: 128px;
+    height: 140px;
+    font-size: 16px;
+    line-height: 140px;
+}
+.register-box-piece{
+    width: 260px;
+    margin-left: 24px;
+    margin-top: 5px;
+}
+.register-box-ul{
+    margin: 16px 0 16px 0;
+}
+.register-box-ul li{
+    height: 23px;
+    line-height: 23px;
+    font-size: 14px;
+}
+.register-box-button{
+    border: 1px solid #007fff;
+    margin: 45px 13px 0 0;
+    padding: 7px 13px 7px 13px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+.register-box-button:hover{
+    background-color: #007fff;
+    color: white;
+}
+/*这里是中间推荐页面的结束*/
+
+
+
+
+/*这里是中间Android页面的的开始*/
+.android{
+    margin-top: 16px;
+    position: relative;
+    left: 155px;
+    width: 600px;
+}
+.recommend-tags{
+    background-color: white;
+    padding: 16px;
+    height: 130px;
+    margin-bottom: 16px;
+}
+.recommend-tag{
+    width: 20%;
+    display: block;
+}
+.recommend-tag img{
+    height: 48px;
+    margin: 10px 36px 5px 36px;
+}
+.recommend-tag-text{
+    text-align: center;
+    height: 28px;
+    line-height: 28px;
+}
+.recommend-tag-button{
+    border: 1px solid #37c700;
+    background-color: white;
+    color: #37c700;
+    margin: 6px 22px 6px 22px;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 14px;
+    padding: 3px 6px 3px 6px;
+}
+.recommend-tag-button:hover{
+    background-color: #37c700;
+    color: white;
+}
+/*这里是中间Android页面的的结束*/
+

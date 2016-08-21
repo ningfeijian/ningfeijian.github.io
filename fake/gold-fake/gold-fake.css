@@ -1,0 +1,161 @@
+body,div,p,ul,li,span,h6,h5,h4,h3,h2,h1,a,img,button{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration:none
+}
+
+body{
+    background-color: #f4f5f5;
+    color: #333;
+    font-family: -apple-system,PingFang SC,Hiragino Sans GB,Arial,Microsoft YaHei,Helvetica Neue,sans-serif;
+}
+
+input{
+    outline: none;
+}
+
+
+.body-font-color{
+    color: #007fff;
+}
+
+
+.font-color-90{
+    color: #909090;
+}
+
+
+.font-color-blue{
+    color: #007fff;
+
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+
+.clear-float{
+    clear: both;
+    zoom: 1;
+}
+
+.font-size{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

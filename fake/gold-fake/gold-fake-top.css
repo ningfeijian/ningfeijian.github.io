@@ -1,0 +1,35 @@
+/*这里是头部的开始*/
+.top{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 5;
+}
+.top-container{
+    width: 1000px;
+    height: 64px;
+    margin: auto;
+}
+.top-container img{
+    padding: 16px 12px 16px 12px;
+    height: 32px;
+}
+.community {
+    padding: 20px 12px 20px 38px;
+}
+.top-input{
+    outline: none;
+    border:  1px solid #ddd;
+    height: 28px;
+    width: 240px;
+    margin: 16px 30px;
+}
+.top-container-span{
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 22px;
+}
+.top-container-span:hover{
+    color: #0371df;
+}
+/*这里是头部的结束*/

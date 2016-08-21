@@ -1,0 +1,159 @@
+.top{
+    width: 100%;
+    height: 63px;
+    position: fixed;
+    background-color: white;
+    border-bottom: 1px solid #f1f1f1;
+    z-index: 11;
+}
+.container{
+    width: 960px;
+    margin: auto;
+}
+.container-img1{
+    height: 37px;
+    margin-top: 12px;
+    float: left;
+}
+.container-img{
+    height: 33px;
+    margin: 15px 0 15px 15px;
+    border-radius: 50%;
+    display: block;
+    float: right;
+}
+.container span{
+    font-size: 30px;
+    float: right;
+    color: #007fff;
+    margin: 15px 15px;
+}
+.bg{
+    position: relative;
+    width: 100%;
+    background-color: #f4f5f5;
+    height: 40px;
+    border-bottom: 1px solid #f1f1f1;
+    top: 64px;
+}
+.actions{
+    width: 100px;
+    position: relative;
+    left: 315px;
+    font-size: 14px;
+    line-height: 40px;
+    color: #909090;
+    text-align: center;
+}
+.actions:hover{
+    color: #007fff;
+    border-bottom: 2px solid #007fff;
+}
+.subject{
+    position: absolute;
+    top: 104px;
+    width: 100%;
+    height: 665px;
+    background-color:white;
+}
+.subject-container{
+    width: 960px;
+    margin: auto;
+}
+.subject-container h2{
+    margin-top: 48px;
+    font-size: 25px;
+}
+.sub-title{
+    color: #838383;
+    font-size: 14px;
+    margin: 3px 0 40px 0;
+
+}
+.new-entry-info{
+    height: 190px;
+}
+.new-entry-info input{
+    width: 604px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 11px;
+    font: inherit;
+}
+
+.describe{
+    height: 53px;
+    margin: 0;
+    outline: none;
+}
+.describe:hover{
+    border: 1px solid #007fff;
+}
+.input-hover{}
+.input-hover:hover{
+    border: 1px solid #007fff;
+}
+.file{
+    width: 312px;
+    height: 189px;
+    border: 1px dashed hsla(0,0%,40%,.2);
+    background-color: hsla(0,0%,95%,.9);
+    color: hsla(0,0%,40%,.5);
+}
+.screenshot-input{
+    padding: 44px 8px 44px 8px;
+}
+.screenshot-input span{
+    text-align: center;
+    display: block;
+}
+.screenshot-input p{
+    margin: 16px 0 16px 0;
+    text-align: center;
+}
+.file:hover{
+    background-color: #f1f1f1;
+    color: #333;
+}
+.branch-class{
+    margin-top: 16px;
+    height: 26px;
+}
+.branch-class input{
+    margin-top: 4px;
+    font-size: 14px;
+    width: 70px;
+
+}
+.branch-class-li{
+    border: 1px solid #f1f1f1;
+    color: #909090;
+    padding: 1px 9px 1px 9px;
+    line-height: 26px;
+    margin-right: 8px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+.branch-class-li:hover{
+    color: #007fff;
+    border-color: rgba(0,127,255,.15);
+    background-color: rgba(0,127,255,.05);
+}
+.other{
+    margin-right: 16px;
+    color: #333;
+    line-height: 30px;
+}
+.other-1{
+    margin-left: 105px;
+}
+.submission{
+    background-color: #007fff;
+    padding: 8px 16px 8px 16px;
+    width: 595px;
+    margin-top: 32px;
+    text-align: center;
+    color: white;
+}
+
