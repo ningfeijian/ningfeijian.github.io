@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" href="search-engines.css" rel="stylesheet">
+
+    <style>
+
+    </style>
+</head>
+<body>
+<div id="content">
+    <div class="left-block">
+        <!--语义化 SEO-->
+        <h1>应用</h1>
+        <div id="app-container">
+            <div class="app">
+                <img src="search-engines-picture/1.png">
+                <dl>
+                    <dt title="电脑管家"><a href="#">电脑管家</a></dt>
+                    <dd>电脑管家的作用</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div class="right-block">
+        <input id="keywords"></input>
+    </div>
+</div>
+
+<script>
+    var apps = [{ico:"search-engines-picture/1.png",name:"电脑管家",desc:""},
+        {ico:"search-engines-picture/2.png",name:"QQ音乐",desc:""},
+        {ico:"search-engines-picture/3.png",name:"系统设置",desc:""},
+        {ico:"search-engines-picture/4.png",name:"WIFI管理",desc:""},
+        {ico:"search-engines-picture/5.png",name:"百度地图",desc:""},
+        {ico:"search-engines-picture/6.png",name:"拨打电话",desc:""},
+        {ico:"search-engines-picture/7.png",name:"我的备忘录",desc:""}];
+    //渲染APP的样式
+    function renderApps(apps){
+        var html = "";
+        var app;
+        //传入的apps有多少个对象，那么就循环多少次，每次生成一段HTML代码，并且追加到html这个变量中
+        for(var i=0;i<apps.length;i++){
+            app = apps[i];
+            html += '<div class="app">'+
+                    '<img src="'+app.ico+'">'+
+                    '<dl>'+
+                    '<dt title="'+app.name+'"><a href="#">'+app.name+'</a></dt>'+
+                    '<dd>'+app.desc+'</dd>'+
+                    '</dl>'+
+                    '</div>';
+        }
+        //改变app-container里面的html代码内容
+        document.getElementById("app-container").innerHTML = html;
+    }
+    renderApps(apps);
+
+    // //绑定keyup事件，当选择框被输入的时候，触发回调函数
+    // document.getElementById("keywords").onkeyup = function(){
+    // 	var newApps = [];
+    // 	//获得当前文本框当前输入的值放到keywords变量中
+    // 	var keywords = this.value;
+    // 	//把能够匹配上关键字的app对象添加到newApps中
+    // 	for(var i=0;i<apps.length;i++){
+    // 		if(apps[i].name.indexOf(keywords)!=-1){
+    // 			newApps.push(apps[i]);
+    // 		}
+    // 	}
+    // 	//重新渲染
+    // 	renderApps(newApps);
+    // }
+//    绑定keyup事件，当选择框被输入的时候，触发回调函数
+    document.getElementById("keywords").onkeyup = function(){
+        //获得文本框关键字的值
+        var keywords = this.value;
+        var newApps = apps.filter(function(obj){
+            if(obj.name.indexOf(keywords)!=-1){
+                return obj;
+            }
+        });
+        renderApps(newApps);
+    }
+</script>
+</body>
+</html>

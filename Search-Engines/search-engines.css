@@ -1,0 +1,85 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #180153;
+    font-family: Arial,"Microsoft Yahei";
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+#content{
+    position: fixed;
+    /*background-color: red;*/
+    top: 15%;
+    bottom: 15%;
+    left: 25%;
+    right: 25%;
+}
+#content .left-block{
+    width: 65%;
+    height: 100%;
+    float: left;
+    color: #fff;
+    /*background-color: red;*/
+}
+#content .left-block h1{
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+#content .right-block{
+    width: 35%;
+    height: 100%;
+    float: right;
+}
+#content .left-block .app{
+    width: 45%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #180153;
+    cursor: pointer;
+}
+#content .left-block .app:hover{
+    border: 1px solid #fff;
+}
+#content .left-block .app img{
+    height: 100%;
+    float: left;
+}
+#content .left-block .app dl{
+    float: right;
+    margin: 0;
+    width: 65%;
+    margin-left: 10px;
+}
+#content .left-block .app dl dt{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#content .left-block .app dl dd{
+    margin-left: 0;
+    font-size: 12px;
+    line-height: 27px;
+}
+#content .right-block input{
+    border:1px solid #281459;
+    height: 23px;
+    text-indent: 5px;
+    font-family: Arial,"Microsoft Yahei";
+    outline: none;
+    background-image: url("imgs/search.png");
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    padding:5px;
+    padding-right: 30px;
+    border-radius: 3px;
+}
+#keywords{}
