@@ -57,21 +57,7 @@
     }
     renderApps(apps);
 
-    // //绑定keyup事件，当选择框被输入的时候，触发回调函数
-    // document.getElementById("keywords").onkeyup = function(){
-    // 	var newApps = [];
-    // 	//获得当前文本框当前输入的值放到keywords变量中
-    // 	var keywords = this.value;
-    // 	//把能够匹配上关键字的app对象添加到newApps中
-    // 	for(var i=0;i<apps.length;i++){
-    // 		if(apps[i].name.indexOf(keywords)!=-1){
-    // 			newApps.push(apps[i]);
-    // 		}
-    // 	}
-    // 	//重新渲染
-    // 	renderApps(newApps);
-    // }
-//    绑定keyup事件，当选择框被输入的时候，触发回调函数
+
     document.getElementById("keywords").onkeyup = function(){
         //获得文本框关键字的值
         var keywords = this.value;
