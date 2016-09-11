@@ -2,62 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ningfeijian</title>
+    <title>ning-fei-jian</title>
     <link rel="stylesheet" type="text/css">
     <style>
-
-        body,div,ul,li{
-            margin: 0;
-            padding: 0;
-        }
-        .homepage{
-            width: 100%;
-            height: 1200px;
-            background: ivory;
-        }
-        .personal{
-            margin-top:100px;
-            width: 100%;
-            height: 200px;
-            padding: 0;
-        }
-        .personal-control{
-            width: 1320px;
-            height: 200px;
-            margin: 0 auto;
-            padding: 0;
-            list-style-type: none;
-        }
-        .personal-small{
-            width: 1300px;
-            height: 200px;
-        }
-        .personal-eye{
-            width: 260px;
-            height: 200px;
-            float: left;
-            background: rosybrown;
-            margin: 0 83px 0 0;
-        }
-         p{
-            font-size: 40px;
-            color: #2196f3;
-        }
-        .personal-eye-none{
-            margin: 0;
-            float: left;
-        }
-        .personal-eye-img{
-            width: 260px;
-            height: 200px;
-        }
         .main{
             width: 300px;
             height: 70px;
             font-size: 10px;
             overflow: hidden;
         }
-
         .main div{
             background-color: deepskyblue;
             height: 100%;
@@ -65,11 +18,9 @@
             display: inline-block;
             margin-top: 40px;
         }
-
         .move-box1{
             animation: stretchdelay 1.1s infinite ease-in-out;
         }
-
         .move-box2{
             animation: stretchdelay 1.0s infinite ease-in-out;
         }
@@ -92,94 +43,248 @@
                }
         }
 
+        body,div,ul,li,a,span,img,p,h1,h2,h3,h4,h5,h6,table,tr,th,td{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #f1f1f1;
+            color: #4c4c4c;
+        }
+        ul,li{
+            list-style: none;
+        }
+        a{
+            text-decoration:none;
+        }
+        .homepage{
+            width: 100%;
+        }
+        .homepage-resume-box{
+            background-color: rosybrown;
+            margin:auto;
+            width: auto;
+        }
+        .homepage-photo-box{
+            float: left;
+        }
+        .homepage-photo-box img{
+            width: 100px;
+            height: 100px;
+            border-radius:50%;
+            margin-left: 100px;
+            margin-top: 100px;
+        }
+        .header-resume-content{
+            float: left;
+        }
+        .header-content-details{
+            margin: 100px 0 0 100px;
+            width: auto;
+        }
+        .header-content-details li{
+            height: 30px;
+            margin-top: 5px;
+        }
+        .header-title{
+            font-size: 22px;
+            float: left;
+            line-height: 30px;
+        }
+        .header-title-object{
+            margin-left: 10px;
+            font-size: 20px;
+            color: #909090;
+            float: left;
+            line-height: 30px;
+        }
+        .header-experience{
+            margin-top: 30px;
+            text-align: center;
+            border: 1px solid silver;
+        }
+        .header-experience th{
+            width: 350px;
+            margin: 0 50px 0 50px;
+            font-size: 20px;
+            border: 1px solid silver;
+        }
+        .header-experience td{
+            width: 350px;
+            color: #909090;
+        }
 
-
+        .header-toshow{
+            margin-top: 50px;
+            width:100%;
+            float: left;
+        }
+        .header-toshow-box{
+            width: 1200px;
+            margin: auto;
+            overflow:hidden;
+        }
+        .header-toshow-content{
+            float: left;
+            margin-left: 50px;
+            display: block;
+            background-color: aquamarine;
+            border-radius: 50%;
+        }
+        .header-toshow-content img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .header-toshow-content p{
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            margin: auto;
+            font-size: 25px;
+            line-height: 150px;
+        }
+        .remove-view{
+            background-color: #f1f1f1;
+        }
 
 
     </style>
 </head>
 <body>
 <div class="homepage">
-    <div class="main">
-        <div class="move-box1"></div>
-        <div class="move-box2"></div>
-        <div class="move-box3"></div>
-        <div class="move-box4"></div>
-        <div class="move-box5"></div>
-        <div class="move-box4"></div>
-        <div class="move-box1"></div>
-        <div class="move-box3"></div>
-        <div class="move-box2"></div>
-        <div class="move-box5"></div>
-        <div class="move-box2"></div>
-        <div class="move-box3"></div>
-        <div class="move-box5"></div>
-        <div class="move-box1"></div>
-        <div class="move-box4"></div>
-        <div class="move-box5"></div>
-        <div class="move-box3"></div>
-        <div class="move-box2"></div>
-        <div class="move-box5"></div>
-        <div class="move-box2"></div>
-        <div class="move-box2"></div>
-        <div class="move-box5"></div>
-        <div class="move-box2"></div>
-        <div class="move-box3"></div>
-        <div class="move-box5"></div>
-        <div class="move-box1"></div>
-
+    <div class="homepage-resume-box">
+        <div class="homepage-photo-box">
+            <img src="picture/个人图片01.jpg">
+        </div>
     </div>
+    <div class="header-resume-content">
+        <ul class="header-content-details">
+            <li>
+                <div class="header-title">名字: </div>
+                <div class="header-title-object"> 宁飞剑</div>
+            </li>
+            <li>
+                <div class="header-title">性别: </div>
+                <div class="header-title-object">男</div>
+            </li>
+            <li>
+                <div class="header-title">出生日期: </div>
+                <div class="header-title-object">1987-03-03</div>
+            </li>
+            <li>
+                <div class="header-title">学历: </div>
+                <div class="header-title-object">大专</div>
+            </li>
+            <li>
+                <div class="header-title">民族: </div>
+                <div class="header-title-object">汉</div>
+            </li>
+            <li>
+                <div class="header-title">籍贯: </div>
+                <div class="header-title-object">湖南</div>
+            </li>
+            <li>
+                <div class="header-title">政治面貌: </div>
+                <div class="header-title-object">党员</div>
+            </li>
+            <li>
+                <div class="header-title">婚姻状况: </div>
+                <div class="header-title-object">已婚</div>
+            </li>
+            <li>
+                <div class="header-title">毕业学校: </div>
+                <div class="header-title-object">长沙航空技术学院(2005)</div>
+            </li>
 
+        </ul>
+        <table class="header-experience">
+            <tr>
+                <th>项目经历</th>
+                <th>公司</th>
+                <th>部门职位</th>
+            </tr>
 
-<audio controls="controls" autoplay loop>
-    <source src="./mp3/줄라이%20(July)%20-%20In%20Love%20(恋爱).mp3" type="audio/mp3">
-    <source src="mp3/줄라이%20(July)%20-%20In%20Love%20(恋爱).mp3" type="audio/mp3">
-</audio>
+            <tr>
+                <td>众合联科技有限公司官方网站的制作与维护</td>
+                <td>深圳众合联科技有限公司</td>
+                <td>前端工程师</td>
+            </tr>
 
+            <tr>
+                <td>茅台酒库管理系统</td>
+                <td>深圳众合联科技有限公司</td>
+                <td>前端工程师</td>
+            </tr>
+        </table>
+    </div>
+    <div class="header-toshow">
+        <div class="header-toshow-box">
+            <a href="http://www.99dna.com/NewWeb" class="header-toshow-content remove-view">
+                <img src="https://lh3.googleusercontent.com/HnOvGQnuq8HyvaK2_mxDzN211JkoBVJI9p4Iij3sa6rhU3kBbNTC5jvtKA7hGpeTeaae=s111">
+            </a>
+            <a href="tmall/tmallhtml.html" class="header-toshow-content remove-view">
+                <img src="http://jiangsu.sinaimg.cn/2015/0325/U10113P1194DT20150325092119.jpg">
+            </a>
+            <a href="miui/xiami.html" class="header-toshow-content remove-view">
+                <img src="http://pic.58pic.com/58pic/13/81/25/48c58PICgWY_1024.jpg">
+            </a>
+            <a href="ning/CSS6.html" class="header-toshow-content">
+                <p>个人磁带</p>
+            </a>
+            <a href="ning/CSS7.html" class="header-toshow-content">
+                <p>逐帧动画</p>
+            </a>
+            <a href="ning/CSS5.html" class="header-toshow-content">
+                <p>个人动画集</p>
+            </a>
 
-
-
-
-<div class="personal">
-    <div class="personal-control">
-        <div class="personal-small">
-            <div class="personal-eye rotate-1">
-                <a href="miui/xiami.html">
-                    <img class="personal-eye-img" src="http://pic.58pic.com/58pic/13/81/25/48c58PICgWY_1024.jpg"></a>
-            </div>
-            <div class="personal-eye rotate-2">
-                <a href="tmall/tmallhtml.html">
-                <img class="personal-eye-img" src="http://jiangsu.sinaimg.cn/2015/0325/U10113P1194DT20150325092119.jpg"></a>
-            </div>
-            <div class="personal-eye rotate-3">
-                <a href="ning/CSS6.html"><p>个人磁带</p></a>
-            </div>
-            <div class="personal-eye personal-eye-none rotate-4">
-                <a href="ning/CSS5.html"><p>个人动画集</p></a>
-            </div>
         </div>
     </div>
 </div>
-    <div class="personal">
-        <div class="personal-control">
-            <div class="personal-small">
-                <div class="personal-eye rotate-1">
-                    <a href="">
-                        <img class="personal-eye-img" src=""></a>
-                </div>
-                <div class="personal-eye rotate-2">
-                    <a href="">
-                        <img class="personal-eye-img" src=""></a>
-                </div>
-                <div class="personal-eye rotate-3">
-                    <a href="ning/CSS7.html"><p>CSS-逐帧动画</p></a>
-                </div>
-                <div class="personal-eye personal-eye-none rotate-4">
-                    <a href=""><p></p></a>
-                </div>
-            </div>
-        </div>
-    </div>
+
+
+
+
+
+
+
+
+<!--<div class="homepage">-->
+    <!--<div class="main">-->
+        <!--<div class="move-box1"></div>-->
+        <!--<div class="move-box2"></div>-->
+        <!--<div class="move-box3"></div>-->
+        <!--<div class="move-box4"></div>-->
+        <!--<div class="move-box5"></div>-->
+        <!--<div class="move-box4"></div>-->
+        <!--<div class="move-box1"></div>-->
+        <!--<div class="move-box3"></div>-->
+        <!--<div class="move-box2"></div>-->
+        <!--<div class="move-box5"></div>-->
+        <!--<div class="move-box2"></div>-->
+        <!--<div class="move-box3"></div>-->
+        <!--<div class="move-box5"></div>-->
+        <!--<div class="move-box1"></div>-->
+        <!--<div class="move-box4"></div>-->
+        <!--<div class="move-box5"></div>-->
+        <!--<div class="move-box3"></div>-->
+        <!--<div class="move-box2"></div>-->
+        <!--<div class="move-box5"></div>-->
+        <!--<div class="move-box2"></div>-->
+        <!--<div class="move-box2"></div>-->
+        <!--<div class="move-box5"></div>-->
+        <!--<div class="move-box2"></div>-->
+        <!--<div class="move-box3"></div>-->
+        <!--<div class="move-box5"></div>-->
+        <!--<div class="move-box1"></div>-->
+    <!--</div>-->
+    <!--<audio controls="controls" autoplay loop>-->
+        <!--<source src="./mp3/줄라이%20(July)%20-%20In%20Love%20(恋爱).mp3" type="audio/mp3">-->
+        <!--<source src="mp3/줄라이%20(July)%20-%20In%20Love%20(恋爱).mp3" type="audio/mp3">-->
+    <!--</audio>-->
+<!--</div>-->
+
 
 </body>
 </html>
